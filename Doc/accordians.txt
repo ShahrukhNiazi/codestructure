@@ -1,0 +1,203 @@
+      <div id="accordion" class="panel-group c-accordian" role="tablist" aria-multiselectable="true">
+                            <div class="panel panel-default">
+                                <div id="headingOne" class="panel-heading" role="tab">
+                                    <h4 class="panel-title"><a class="collapsed" role="button" href="#rostercolleps" data-toggle="collapse" data-parent="#accordion" aria-expanded="false" aria-controls="collapseOne">Tuition and Fees</a></h4>
+                                </div>
+                                <div id="rostercolleps" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne" aria-expanded="false" style="">
+                                    <div class="panel-body">
+                                        000
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div id="headingOne" class="panel-heading" role="tab">
+                                    <h4 class="panel-title"><a class="collapsed" role="button" href="#rostercolleps1" data-toggle="collapse" data-parent="#accordion" aria-expanded="false" aria-controls="collapseOne">Class Schedule</a></h4>
+                                </div>
+                                <div id="rostercolleps1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne" aria-expanded="false" style="">
+                                    <div class="panel-body">
+                                        00
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div id="headingOne" class="panel-heading" role="tab">
+                                    <h4 class="panel-title"><a class="collapsed" role="button" href="#rostercolleps2" data-toggle="collapse" data-parent="#accordion" aria-expanded="false" aria-controls="collapseOne">Graduation Requirements</a></h4>
+                                </div>
+                                <div id="rostercolleps2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne" aria-expanded="false" style="">
+                                    <div class="panel-body">
+                                        <div class="bodycontent">
+                                            01
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div id="headingOne" class="panel-heading" role="tab">
+                                    <h4 class="panel-title"><a class="collapsed" role="button" href="#rostercolleps3" data-toggle="collapse" data-parent="#accordion" aria-expanded="false" aria-controls="collapseOne">Objective</a></h4>
+                                </div>
+                                <div id="rostercolleps3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne" aria-expanded="false" style="">
+                                    <div class="panel-body">
+                                        02
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div id="headingOne" class="panel-heading" role="tab">
+                                    <h4 class="panel-title"><a class="collapsed" role="button" href="#rostercolleps4" data-toggle="collapse" data-parent="#accordion" aria-expanded="false" aria-controls="collapseOne">Subject Description</a></h4>
+                                </div>
+                                <div id="rostercolleps4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne" aria-expanded="false" style="">
+                                    <div class="panel-body">
+                                        <div class="bodycontent">
+                                            03
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+/* accordian */
+
+.panel {
+  border-width: 0 0 1px 0;
+  background: none;
+  box-shadow: none;
+  border-bottom: 1px solid #ccc;
+  padding-top: 15px;
+}
+
+.panel:last-child {
+  border-bottom: none;
+}
+
+.panel-group > .panel:first-child .panel-heading {
+  border-radius: 4px 4px 0 0;
+}
+
+.panel-group .panel {
+  border-radius: 0;
+}
+
+.panel-group .panel + .panel {
+  margin-top: 0;
+}
+
+.panel-heading {
+  border-radius: 0;
+  border: none;
+  color: #333;
+  padding: 0;
+}
+
+.panel-title a {
+  display: block;
+  color: #333;
+  padding: 15px;
+  position: relative;
+  font-size: 24px;
+  font-weight: 600;
+  font-family: 'Bio Sans';
+}
+
+.panel-body {
+}
+
+.panel:last-child .panel-body {
+  border-radius: 0 0 4px 4px;
+}
+
+.panel:last-child .panel-heading {
+  border-radius: 0 0 4px 4px;
+  transition: border-radius 0.3s linear 0.2s;
+}
+
+.panel:last-child .panel-heading.active {
+  border-radius: 0;
+  transition: border-radius linear 0s;
+}
+/* #bs-collapse icon scale option */
+
+.panel-heading a:before {
+  content: '\e146';
+  position: absolute;
+  right: 5px;
+  top: 10px;
+  font-size: 24px;
+  transition: all 0.5s;
+  content: "\f107";
+  transform: scale(1);
+  font-family: "Font Awesome 5 Free";
+}
+
+.panel-heading.active a:before {
+  content: ' ';
+  transition: all 0.5s;
+  transform: scale(0);
+}
+
+#bs-collapse .panel-heading a:after {
+  content: ' ';
+  font-size: 24px;
+  position: absolute;
+  font-family: 'Material Icons';
+  right: 5px;
+  top: 10px;
+  transform: scale(0);
+  transition: all 0.5s;
+}
+
+#bs-collapse .panel-heading.active a:after {
+  content: '\e909';
+  transform: scale(1);
+  transition: all 0.5s;
+}
+/* #accordion rotate icon option */
+
+#accordion .panel-heading a:before {
+   top: 10px;
+   position: absolute;
+  right: 5px;
+   font-size: 24px;
+  transition: all 0.5s;
+  content: "\f107";
+  transform: scale(1);
+  font-family: "Font Awesome 5 Free";
+}
+
+#accordion .panel-heading.active a:before {
+  transform: rotate(0deg);
+  transition: all 0.5s;
+}
+
+.education-sec .mt-5 {
+  margin-top: 8rem!important;
+}
+
+.panel-group .panel ul li {
+  font-size: 18px;
+  padding-bottom: 15px;
+  width: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.panel-group .panel ul {
+  padding: 20px;
+}
+
+
+.panel-group .panel ul li span {
+  font-weight: 600;
+  padding-left: 35px;
+}
+/* accordian */

@@ -1,0 +1,123 @@
+SYubCfCtMbKDANLcz2gw
+
+
+for dump
+
+composer dump-autoload
+
+
+for check your current link
+
+php artisan serv
+
+
+for create controller
+
+php artisan make:controller AboutusController
+
+
+for caches add
+
+php artisan route:cache
+
+
+
+
+php artisan config:cache
+ 
+php artisan route:cache
+
+php artisan cache:clear
+
+('app.LOGO_CATEGORY')
+
+
+"autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+        ,
+        "files": [
+            "../newledgecrmengine/config/Functions.php",
+            "app/Helpers/GlobalFunctions.php"
+        ],
+        "classmap": [
+            
+            "../newledgecrmengine/config"
+        ]
+    }
+
+https://demo-octalogo.com/karen-rubman-html/v14/#
+ 
+
+C:\Windows\System32\drivers\etc
+
+
+E:\xamp-version-7\apache\conf\extra
+
+
+mailto:{{ config('variables.SITE_EMAIL') }}
+ {{ config('variables.SITE_EMAIL') }}
+{{ config('variables.SITE_PHONE_NUMBER') }}
+{{ config('variables.SITE_NAME_TEXT') }}
+
+{{ url('/') }}
+
+
+@include('layouts.includes.site-is-active')
+
+
+ <img data-src="{{asset('assets/images/intro-img.webp')}}" class="intro_img lazyload" alt="">
+
+
+@section('title')
+	 
+@section('title')
+Promote your Brand, Product or Service with Animated Video
+@endsection
+
+@section('meta')
+<meta name="description" content="">
+@endsection
+
+@section('keywords')
+<meta name="keywords" content="">
+@endsection
+
+
+<link rel="icon" href="data:image/vnd.microsoft.icon;base64," type="image/x-icon">
+
+
+.get-touch-sec form input::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #fff;
+}
+
+.get-touch-sec form input::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #fff;
+}
+
+.get-touch-sec form input:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #fff;
+}
+
+.get-touch-sec form input:-moz-placeholder {
+  /* Firefox 18- */
+  color: #fff;
+}
+
+.get-touch-sec textarea::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #fff;
+}
+
+
+background-color: #ffffff54;
+backdrop-filter: blur(10px);
+
+
+owl-carousel owl-theme
+
+ 
