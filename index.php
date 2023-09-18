@@ -35,7 +35,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item">
+                <!-- <div class="carousel-item">
                     <img alt="" src="images/banner01.jpg">
                     <div class="sliderItem">
                         <div class="container">
@@ -52,7 +52,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
      </section>
