@@ -98,6 +98,10 @@ header {
   width: 100%;
 }
 
+li.nav-item.active a {
+  color: green !important;
+}
+
 .navbar-nav {
   align-items: center;
   width: 100%;

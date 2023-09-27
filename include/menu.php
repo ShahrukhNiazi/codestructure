@@ -1,3 +1,4 @@
+<?php $activePage = basename($_SERVER['PHP_SELF'], ".php"); ?>
 <div class="main-navigate">
     <div class="container">
         <div class="row">
@@ -13,19 +14,19 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                            <li class="nav-item active">
+                            <li class="nav-item <?= ($activePage == 'index') ? 'active' : ''; ?>">
                                 <a class="nav-link" href="index.php">Home </a>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item <?= ($activePage == 'aboutus') ? 'active' : ''; ?>">
                                 <a class="nav-link" href="aboutus.php">About us</a>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item <?= ($activePage == 'services') ? 'active' : ''; ?>">
                                 <a class="nav-link" href="services.php">Retail Store</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Restaurant </a>
+                            <li class="nav-item <?= ($activePage == 'services') ? 'active' : ''; ?>">
+                                <a class="nav-link" href="services.php">Restaurant </a>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item <?= ($activePage == 'contactus') ? 'active' : ''; ?>">
                                 <a class="nav-link" href="contactus.php">contact us</a>
                             </li>
                         </ul>
